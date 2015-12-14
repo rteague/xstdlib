@@ -11,15 +11,11 @@ The xstdlib (eXtended Standard Library) is a library that ports many essential o
 
 ##Installation
 
-###THE NEW WAY - RECOMMENDED
-
-(NOTE: Make sure you replace _VERSION_ with the correct value, for example xstdlib-1.7.2.tar.gz)
-
-1. Unpack xstdlib-_VERSION_.tar.gz tar ball by running this in command line: tar -zxvf xstdlib-_VERSION_.tar.gz
-2. cd xstdlib/
-3. make
-4. sudo make install
-5. make clean
+1. Pull from github...
+2. cd /path/to/xstdlib/
+3. run: make
+4. run: sudo make install
+5. run: make clean
 
 ##Uninstallation
 
