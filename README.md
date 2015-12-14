@@ -13,9 +13,9 @@ The xstdlib (eXtended Standard Library) is a library that ports many essential o
 
 ###THE NEW WAY - RECOMMENDED
 
-(NOTE: Make sure you replace <version> with the correct value, for example xstdlib-1.7.2.tar.gz)
+(NOTE: Make sure you replace _VERSION_ with the correct value, for example xstdlib-1.7.2.tar.gz)
 
-1. Unpack xstdlib-<version>.tar.gz tar ball by running this in command line: tar -zxvf xstdlib-<version>.tar.gz
+1. Unpack xstdlib-_VERSION_.tar.gz tar ball by running this in command line: tar -zxvf xstdlib-_VERSION_.tar.gz
 2. cd xstdlib/
 3. make
 4. sudo make install
@@ -28,12 +28,17 @@ Just return to the extracted folder from the package you downloaded and run: sud
 ##Usage and compile instructions
 
 To use this library is just like using any other library in C just include the header file in your source file, like so:
+```c
 #include <xstdlib.h>
+```
 
 When compiling a program using the xstdlib library add the flag -lxstdlib ...for example:
+```bash
 gcc -c Wall mysource.c -o mysource.o -lxstdlib
+```
 
 (or with cc)
 
+```bash
 cc -c Wall mysource.c -o mysource.o -lxstdlib
-
+```
